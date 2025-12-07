@@ -1,0 +1,56 @@
+---
+title: "LEYDI XIOMARA GALVEZ GUEVARA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+CALCULAR LAS MEDIDAS DE DISPERSIÓN.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#importamos la data 
+data<- read_csv("C:/Users/xioma/Downloads/cirrosis.csv")
+View(cirrosis)
+
+```
+
+```{r}
+#VER LAS 6 PRIMERAS FILAS
+head(data)
+```
+
+```{r}
+#medidas de dispersión
+#varianza 
+var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#DESVIACIÓN ESTANDAR
+sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO
+range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTÍLICO
+IQR(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#MEDIDAS DE POSICIÓN
+quantile(data$Edad,probs =C(0.25,0.50,0.75,0.90),na.rm =  TRUE)
+```
+
+```{r}
+#resumen de todas las variables 
+summary(data)
+```
