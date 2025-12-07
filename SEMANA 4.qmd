@@ -1,0 +1,35 @@
+---
+title: "LEYDI XIOMARA GALVEZ GUEVARA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+W
+
+```{r}
+#PARA DESCARGAR 1 ACHIVO EN CSV DEL REPOSITORIO GIBHUB
+```
+
+You can add options to executable code like this
+
+```{r}
+#LO PRIMERO QUER TENEMOS QUE HACER ES DIRIGIRNOS AL LINK DE NUESTRO REPERTORIO
+```
+
+```{r}
+#DESPUÉS SELECCIONAMOS EL LINK DE NUESTRO REPERTORIO, NOS ENVIARÁ A LA VENTANA DEL REPERTORIO GIBHUB
+```
+
+```{r}
+#LUEGO INGRESAMOS A LA CARPETA data
+```
+
+```{r}
+#SELECCIONAMOS Y DESCARGAMOS EL ARCHIVO CSV Y NOS SALDRÁ EN LA PARTE SUPERIOR SI YA FUE DESCARGADO CORRRECTAMENTE.
+```
